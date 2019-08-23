@@ -41,6 +41,25 @@ occupation = {'OCCULIS1':['Administrator, manager',
                             'Forestry, fishing, groundskeeping',
                             'Armed forces', 
                           'Unknown'],
+              'SHORT_OCC':['manager',
+                           'teacher',
+                           'professional',
+                           'admin',
+                           'retail',
+                           'sales',
+                           'technician',
+                           'security',
+                           'household',
+                           'service',
+                           'machinist',
+                           'driver',
+                           'laborer',
+                           'mechanic',
+                           'construction',
+                           'farmer',
+                           'outdoor',
+                           'military',
+                          'unknown'],
                 'OCCULIS2':['Administrator, manager',
             'Teacher',
             'Professional',
@@ -99,12 +118,12 @@ income = {'01':'0-4,999',
 '10':'90,000-119,999',
 '11':'120,000 and over'}
 
-region ={
-    '1':'Northeast',
-'2':'Midwest',
-'3':'South',
-'4':'West'
-}
+region =['Unknown',
+    'Northeast',
+'Midwest',
+'South',
+'West'
+        ]
 
 housing = {
     '1':"Homeowner w/ Mortgage",
@@ -115,21 +134,20 @@ housing = {
 '6':"Student Housing"
 }
 
-refgen = {
-    '1':'Birth year of 1928 or earlier - Greatest generation (G.I. Generation)',
-'2':'Birth year from 1929 to 1945 - Silent generation',
-'3':'Birth year from 1946 to 1964 - Baby boomers',
-'4':'Birth year from 1965 to 1980 - also known as Generation X',
-'5':'Birth year of 1981 or later.  Sometimes referred to as the Millennials',
-}
+refgen = [None,
+    'Greatest_gen',
+'Silent_gen',
+'Baby_boomers',
+'Gen_x',
+'Millennials',
+         ]
 
-marital = {
-    '1':'Married',
-'2':'Widowed',
-'3':'Divorced',
-'4':'Separated',
-'5':'Never married'
-}
+marital = [None,
+    'Married',
+'Widowed',
+'Divorced',
+'Separated',
+'Never_married']
 
 education = {'EDU_00':'No_schooling',
 'EDU_10':'Elementary_school',
