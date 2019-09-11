@@ -40,45 +40,46 @@ The **Consumer Expenditure Survey (CE)** is a nationwide household survey conduc
    
 1) Observation - **Generation**
 
+![](Images/Bar&#32;Graph&#32;Generations.png)
+
     Our observation shows Millennials are less likely to purchase meat than Baby Boomer
-
-    ![](Images/Bar&#32;Graph&#32;Generations.png)
-
+---
 2) Observation - **Marital Status**
 
+![](Images/marital_status&#32;pie.png)
+
     Our observation shows married couples are more likely to purchase more meats than the other marital groups
-
-  ![](Images/marital_status&#32;pie.png)
-
+---
 Which **Region** eats more or less meat?
 
 1) Observation - **Region**
 
-Our observation shows when we control for income, meat per person in the South becomes more pronounced
 
  **Uncontrolled Group**
+ 
 ![](Images/updated_color_map.png)
 
 **Income Controlled Group**
 ![](Images/region_income_control.png)   
     
-
-
+    Our observation shows when we control for income, meat per person in the South becomes more pronounced
+---
 Which **Gender** consumes more or less meat?
 
 1) Observation - **Gender**
    
-   Our observation shows **women** are **more likely** to spend **less** on **meat** than **men**. The long right tail of the men money spent on meat histogram shows that **men** spend **more**.
-   
 ![](Images/meat_gender_count.png)
 
+   Our observation shows **women** are **more likely** to spend **less** on **meat** than **men**. The long right tail of the men money spent on meat histogram shows that **men** spend **more**.
+
+----
 Does **High-Income** and **Small Family Size** show more meat consumption
 
 1) Observation - **High Income** and **Family Size**
 
-    Our observation shows that low-income families and small family size tend to purchase more meat than families with higher income and bigger family size
-
 ![](Images/family_income.png)
+
+    Our observation shows that low-income families and small family size tend to purchase more meat than families with higher income and bigger family size
 
 ----
 # Modeling
@@ -104,6 +105,7 @@ Does **High-Income** and **Small Family Size** show more meat consumption
 
 **In total 35+ Features used in our model**
 
+---
 ## Coeffiecients  
 
 ### Negative and Positive Coefficients
@@ -121,15 +123,15 @@ Does **High-Income** and **Small Family Size** show more meat consumption
 - Baby Boomers
 - Men
 - Two or More Family Members
-
-# Model - 1
+---
+# Model - One
 
 ![](Images/model_1.png)
 
 ### Residuals
 ![](Images/model1.png)
 
-# Model 9
+# Model - Nine
 
 ![](Images/model_9.png)
 
