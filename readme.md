@@ -43,12 +43,15 @@ The **Consumer Expenditure Survey (CE)** is a nationwide household survey conduc
 ![](Images/Bar&#32;Graph&#32;Generations.png)
 
 Our observation shows Millennials are less likely to purchase meat than Baby Boomer
+
 ---
 2) Observation - **Marital Status**
 
 ![](Images/marital_status&#32;pie.png)
 
+
 Our observation shows married couples are more likely to purchase more meats than the other marital groups
+
 ---
 Which **Region** eats more or less meat?
 
@@ -64,6 +67,7 @@ Which **Region** eats more or less meat?
 ![](Images/region_income_control.png)   
     
 Our observation shows when we control for income, meat per person in the South becomes more pronounced
+
 ---
 Which **Gender** consumes more or less meat?
 
@@ -129,14 +133,14 @@ Our observation shows that low-income families and small family size tend to pur
 
 ![](Images/model_1.png)
 
-### Residuals
+### **Residuals**
 ![](Images/model1.png)
 
 # Model - Nine
 
 ![](Images/model_9.png)
 
-### Residuals
+### **Residuals**
 ![](Images/truncated_variables.png)
 
 
