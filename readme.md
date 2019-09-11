@@ -42,21 +42,27 @@ The **Consumer Expenditure Survey (CE)** is a nationwide household survey conduc
 
     Our observation shows Millennials are less likely to purchase meat than Baby Boomer
 
-    >image<
+    ![](Images/Bar&#32;Graph&#32;Generations.png)
 
 2) Observation - **Marital Status**
 
     Our observation shows married couples are more likely to purchase more meats than the other marital groups
 
-    >image<
+  ![](Images/marital_status&#32;pie.png)
 
 Which **Region** eats more or less meat?
 
 1) Observation - **Region**
 
-    Our observation shows when we control for income, meat per person in the South becomes more pronounced
+Our observation shows when we control for income, meat per person in the South becomes more pronounced
 
-    >image<
+ **Uncontrolled Group**
+![](Images/updated_color_map.png)
+
+**Income Controlled Group**
+![](Images/region_income_control.png)   
+    
+
 
 Which **Gender** consumes more or less meat?
 
@@ -64,7 +70,7 @@ Which **Gender** consumes more or less meat?
    
    Our observation shows **women** are **more likely** to spend **less** on **meat** than **men**. The long right tail of the men money spent on meat histogram shows that **men** spend **more**.
    
-    >image
+![](Images/meat_gender_count.png)
 
 Does **High-Income** and **Small Family Size** show more meat consumption
 
@@ -72,8 +78,7 @@ Does **High-Income** and **Small Family Size** show more meat consumption
 
     Our observation shows that low-income families and small family size tend to purchase more meat than families with higher income and bigger family size
 
-    >image
-
+![](Images/family_income.png)
 
 ----
 # Modeling
@@ -82,11 +87,14 @@ Does **High-Income** and **Small Family Size** show more meat consumption
 
 ### Linear Model - The Features 
 
+#### Categorical
 - Education - Categorical - 5 Variables
 - Gender - Categorical - 2 Variables
 - Location - Categorical - 4 Variables
 - Marital Status- Categorical - 5 Variables
 - Family Size- Categorical - 5 Variables
+
+### Continous
 - Meat Purchase - Continuous
 - Tobacco Purchased - Continuous
 - Alcohol Purchased - Continuous 
@@ -113,4 +121,25 @@ Does **High-Income** and **Small Family Size** show more meat consumption
 - Baby Boomers
 - Men
 - Two or More Family Members
+
+# Model - 1
+
+![](Images/model_1.png)
+
+### Residuals
+![](Images/model1.png)
+
+# Model 9
+
+![](Images/model_9.png)
+
+### Residuals
+![](Images/truncated_variables.png)
+
+
+# Conclusion
+
+### Key Takeaways
+
+From a business standpoint Baby Boomers from the South buy more meat which can lead to possible increase in sales.
 
