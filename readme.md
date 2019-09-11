@@ -42,13 +42,13 @@ The **Consumer Expenditure Survey (CE)** is a nationwide household survey conduc
 
 ![](Images/Bar&#32;Graph&#32;Generations.png)
 
-    Our observation shows Millennials are less likely to purchase meat than Baby Boomer
+Our observation shows Millennials are less likely to purchase meat than Baby Boomer
 ---
 2) Observation - **Marital Status**
 
 ![](Images/marital_status&#32;pie.png)
 
-    Our observation shows married couples are more likely to purchase more meats than the other marital groups
+Our observation shows married couples are more likely to purchase more meats than the other marital groups
 ---
 Which **Region** eats more or less meat?
 
@@ -60,9 +60,10 @@ Which **Region** eats more or less meat?
 ![](Images/updated_color_map.png)
 
 **Income Controlled Group**
+
 ![](Images/region_income_control.png)   
     
-    Our observation shows when we control for income, meat per person in the South becomes more pronounced
+Our observation shows when we control for income, meat per person in the South becomes more pronounced
 ---
 Which **Gender** consumes more or less meat?
 
@@ -70,7 +71,7 @@ Which **Gender** consumes more or less meat?
    
 ![](Images/meat_gender_count.png)
 
-   Our observation shows **women** are **more likely** to spend **less** on **meat** than **men**. The long right tail of the men money spent on meat histogram shows that **men** spend **more**.
+Our observation shows **women** are **more likely** to spend **less** on **meat** than **men**. The long right tail of the men money spent on meat histogram shows that **men** spend **more**.
 
 ----
 Does **High-Income** and **Small Family Size** show more meat consumption
@@ -79,7 +80,7 @@ Does **High-Income** and **Small Family Size** show more meat consumption
 
 ![](Images/family_income.png)
 
-    Our observation shows that low-income families and small family size tend to purchase more meat than families with higher income and bigger family size
+Our observation shows that low-income families and small family size tend to purchase more meat than families with higher income and bigger family size
 
 ----
 # Modeling
