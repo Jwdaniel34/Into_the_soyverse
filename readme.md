@@ -32,3 +32,85 @@ The **Consumer Expenditure Survey (CE)** is a nationwide household survey conduc
 - Gender 
 
 2) Does **High Income** and **Small Family Size** mean more meat consumption?
+
+# Exploratory Data Analysis
+
+  What is the impact of **Generation** and **Marital Status** on meat consumption?
+
+   
+1) Observation - **Generation**
+
+    Our observation shows Millennials are less likely to purchase meat than Baby Boomer
+
+    >image<
+
+2) Observation - **Marital Status**
+
+    Our observation shows married couples are more likely to purchase more meats than the other marital groups
+
+    >image<
+
+Which **Region** eats more or less meat?
+
+1) Observation - **Region**
+
+    Our observation shows when we control for income, meat per person in the South becomes more pronounced
+
+    >image<
+
+Which **Gender** consumes more or less meat?
+
+1) Observation - **Gender**
+   
+   Our observation shows **women** are **more likely** to spend **less** on **meat** than **men**. The long right tail of the men money spent on meat histogram shows that **men** spend **more**.
+   
+    >image
+
+Does **High-Income** and **Small Family Size** show more meat consumption
+
+1) Observation - **High Income** and **Family Size**
+
+    Our observation shows that low-income families and small family size tend to purchase more meat than families with higher income and bigger family size
+
+    >image
+
+
+----
+# Modeling
+  
+## Features
+
+### Linear Model - The Features 
+
+- Education - Categorical - 5 Variables
+- Gender - Categorical - 2 Variables
+- Location - Categorical - 4 Variables
+- Marital Status- Categorical - 5 Variables
+- Family Size- Categorical - 5 Variables
+- Meat Purchase - Continuous
+- Tobacco Purchased - Continuous
+- Alcohol Purchased - Continuous 
+- Vegetables Purchased -Continuous 
+- Income - Continuous/Categorical
+- Age - Continuous/Categorical
+
+**In total 35+ Features used in our model**
+
+## Coeffiecients  
+
+### Negative and Positive Coefficients
+
+**Negative** Coefficients  
+
+- Single Millennials 
+-  Women Millennials
+- Family Members of More Than Four 
+
+**Positive** Coefficients
+- Veggie Person
+- No High School Education
+- High Income
+- Baby Boomers
+- Men
+- Two or More Family Members
+
